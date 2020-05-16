@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: rgb(209, 250, 224);
+}
+
+h1 {
+  font-family: "Pacifico";
+  color: #28343a;
+}
+
+p,
+label,
+a,
+button,
+select {
+  font-family: "Jost";
+  color: #20292e;
+}
