@@ -1,0 +1,21 @@
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.info {
+  background-color: #8c4799;
+  width: 60%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0px;
+  box-shadow: 10px 10px 40px 4px rgba(0, 0, 0, 0.67);
+  margin-bottom: 20px;
+}
+
+img {
+  width: 50%;
+  border-radius: 5px;
+  border: 4px solid #f996aa;
+}
