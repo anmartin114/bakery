@@ -11,17 +11,17 @@ nav {
 
 a {
   text-decoration: none;
-  color: #28343a;
+  color: #ee6180;
   font-size: 20px;
 }
 
 a:hover {
-  color: #f7e7eb;
+  color: #f7b6dd;
 }
 
 .scallop {
   position: relative;
-  background: #25a2a8;
+  background: #00023f;
   padding: 40px;
 }
 .scallop::after {
@@ -32,9 +32,9 @@ a:hover {
   content: " ";
   background: radial-gradient(
     circle at 50% 0%,
-    #25a2a8 25%,
-    rgba(174, 206, 176, 0.925) 26%,
-    rgb(209, 250, 224) 40%
+    #00023f 25%,
+    rgba(83, 83, 83, 0.925) 26%,
+    rgb(219, 237, 248) 40%
   );
   background-color: #25a2a8;
   background-size: 50px 100px;
@@ -51,4 +51,5 @@ a:hover {
 h1 {
   margin: 0;
   font-size: 30px;
+  color: #ee6180;
 }

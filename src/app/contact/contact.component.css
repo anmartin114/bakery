@@ -1,10 +1,11 @@
 h1 {
   padding-top: 20px;
   text-align: center;
+  color: #00023f;
 }
 
 .info {
-  background-color: #8c4799;
+  background-color: #ee6180;
   width: 60%;
   border-radius: 10px;
   margin: auto;

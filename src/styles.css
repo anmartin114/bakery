@@ -6,12 +6,12 @@
 body {
   height: 100%;
   margin: 0px;
-  background-color: rgb(209, 250, 224);
+  background-color: rgb(219, 237, 248);
 }
 
 h1 {
   font-family: "Pacifico";
-  color: #28343a;
+  color: #f7b6dd;
 }
 
 p,
@@ -20,5 +20,5 @@ a,
 button,
 select {
   font-family: "Jost";
-  color: #20292e;
+  color: #00023f;
 }
