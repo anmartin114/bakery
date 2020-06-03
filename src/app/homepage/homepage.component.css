@@ -1,3 +1,40 @@
+.text {
+  height: 200px;
+  background-color: #ee6180;
+  border-top: 30px solid #00023f;
+  border-bottom: 30px solid #00023f;
+}
+
 h1 {
-  padding-top: 20px;
+  padding: 40px 0px;
+  color: #ee6180;
+}
+
+p {
+  margin: 10px 20px;
+}
+
+.bg1 {
+  background-image: linear-gradient(
+      rgba(219, 237, 248, 0.5),
+      rgba(219, 237, 248, 0.5)
+    ),
+    url("/assets/three-different-colored-cupcakes.jpg");
+}
+
+.bg2 {
+  background-image: linear-gradient(
+      rgba(219, 237, 248, 0.5),
+      rgba(219, 237, 248, 0.5)
+    ),
+    url("/assets/cupcakes-4.jpg");
+}
+
+.parallax {
+  min-height: 400px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
