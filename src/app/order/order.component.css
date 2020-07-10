@@ -68,3 +68,13 @@ button:hover {
   background-color: #f7b6dd;
   border: 4px solid #f7e7eb;
 }
+
+@media only screen and (max-width: 768px) {
+  img {
+    display: none;
+  }
+
+  main {
+    width: 80%;
+  }
+}

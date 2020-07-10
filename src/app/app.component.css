@@ -5,7 +5,7 @@ nav a {
 nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+
   /* position: fixed; */
 }
 
@@ -23,7 +23,6 @@ a:hover {
   position: relative;
   background: #00023f;
   padding: 40px;
-  width: 100%;
 }
 .scallop::after {
   position: absolute;
@@ -44,14 +43,23 @@ a:hover {
   width: 100%;
 }
 
-/* .after-scallop {
-  background: #c4dcd1;
-  padding: 50px;
-  margin-bottom: 20px;
-} */
-
 h1 {
   margin: 0;
   font-size: 30px;
   color: #ee6180;
+}
+
+@media only screen and (max-width: 768px) {
+  a {
+    font-size: 18px;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .scallop {
+    padding: 15px 5px;
+  }
 }

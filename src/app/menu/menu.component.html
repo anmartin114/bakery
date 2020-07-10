@@ -1,37 +1,9 @@
 <h1>Menu</h1>
 <div class="box">
   <ul>
-    <li>
-      <p>Vanilla</p>
-      <img src="./assets/vanilla.jpg" />
-    </li>
-    <li>
-      <p>Chocolate</p>
-      <img src="./assets/chocolate.jpg" />
-    </li>
-    <li>
-      <p>Red Velvet</p>
-      <img src="./assets/redvelvet.jpg" />
-    </li>
-    <li>
-      <p>Lemon</p>
-      <img src="./assets/lemon.jpg" />
-    </li>
-    <li>
-      <p>Carrot Cake</p>
-      <img src="./assets/carrot.jpg" />
-    </li>
-    <li>
-      <p>Carmel</p>
-      <img src="./assets/carmel.jpg" />
-    </li>
-    <li>
-      <p>Orange</p>
-      <img src="./assets/orange.jpg" />
-    </li>
-    <li>
-      <p>Peanut Butter</p>
-      <img src="./assets/pbchoc.jpg" />
+    <li *ngFor="let cupcake of cupcakes">
+      <p>{{ cupcake.name }}</p>
+      <img src="{{ cupcake.img }}" />
     </li>
   </ul>
 </div>

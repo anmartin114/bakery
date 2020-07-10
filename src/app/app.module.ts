@@ -7,7 +7,7 @@ import { HomepageComponent } from "./homepage/homepage.component";
 
 import { MenuComponent } from "./menu/menu.component";
 import { OrderComponent } from "./order/order.component";
-import { ContactComponent } from "./contact/contact.component";
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ContactComponent } from "./contact/contact.component";
     HomepageComponent,
     MenuComponent,
     OrderComponent,
-    ContactComponent,
+    CartComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
